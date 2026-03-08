@@ -1,0 +1,16 @@
+import React from 'react'
+
+export default function BeforeAfterPage() {
+  return (
+    <>
+    <div className='min-h-screen w-3/4 py-8 mx-auto'>
+<    <h1>before</h1>
+>    
+    
+    
+    </div>
+    
+    
+    </>
+  )
+}

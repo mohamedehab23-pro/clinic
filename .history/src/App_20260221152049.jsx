@@ -1,0 +1,17 @@
+import { useState } from 'react'
+import HeroPage from '../src/Pages/HeroPage'
+import './App.css'
+
+function App() {
+
+  return (
+    <>
+    <div className='bg-gr'>
+
+     <HeroPage/>
+    </div>
+    </>
+  )
+}
+
+export default App

@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+.active{
+    @apply text-black dark:text-white
+}
+.nav li{
+    @apply hover:text-black dark:hover:text-white
+}

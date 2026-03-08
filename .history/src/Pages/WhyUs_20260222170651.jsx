@@ -1,0 +1,22 @@
+import React from 'react'
+import Header from '../Components/Header'
+
+export default function WhyUs() {
+  return (
+    <div>
+   <div id='services' className='min-h-[50vh] w-3/4 mx-auto'>
+   <Header text={'ليه تختارنا'}/>
+   <div className='flex flex-col py-2 lg:flex-row gap-3'>
+<div className='rounded-2xl border hover:shadow-2xl shadow p-6 border-gray-400'>
+<p className='text-3xl text-blue-500 fo'>+1000</p>
+<p className='text-2xl'>مريض سعيد</p>
+</div>
+   </div>
+   </div>
+
+
+
+
+    </div>
+  )
+}
