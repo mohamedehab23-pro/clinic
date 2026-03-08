@@ -57,9 +57,9 @@ window.open(whatsappURL,'_blank')
               <label htmlFor='mobile'>رقم الموبايل</label>
               <Input errorMessage={errors.phone?.message} isInvalid={errors.phone&& touchedFields.phone} variant='bordered' {...register('phone')} id='mobile' />
               <label htmlFor='service'>نوع الخدمة</label>
-              <select className={`p-2 rounded-xl shadow border border-gray-300 dark:bg-gray-800 text-sm dark:text-white ${errors.service?'border-red-500':'border-gray-300'}`} {...register('service')} id="jobs">
+              <select className={`p-2 rounded-xl shadow border border-gray-300 dark:text-black ${errors.service?'border-red-500':'border-gray-300'}`} {...register('service')} id="jobs">
              
-                <option  value="تنظيف الأسنان">تنظيف الأسنان</option>
+                <option className='text-white' value="تنظيف الأسنان">تنظيف الأسنان</option>
                 <option value="حشو تجميلي">حشو تجميلي</option>
                 <option value="تقويم الأسنان">تقويم الأسنان</option>
                 <option value="زراعة الأسنان">زراعة الأسنان</option>
@@ -67,7 +67,7 @@ window.open(whatsappURL,'_blank')
               </select>
             {errors.service&& touchedFields.service&& (<p className='text-red-600 text-sm '>{errors.service?.message}</p>)}
               <label  htmlFor='date' >الموعد المفضل</label>
-              <input    type="date" className={`p-2 rounded-xl shadow border text-sm border-gray-300 
+              <input    type="date" className={`p-2 rounded-xl shadow border border-gray-300 
                 ${errors.time ?'border-red-500':'border-gray-300' }`} {...register('time')}/>
              {errors.time&& touchedFields.time&& <p className='text-red-600 text-sm'>{errors.time?.message}</p>}
               <Button type='submit' color="primary"> ارسال عبر الواتساب</Button>
