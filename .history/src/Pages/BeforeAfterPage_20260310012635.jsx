@@ -8,7 +8,7 @@ export default function Reviews() {
 <Header text={'آراء العملاء'}/> 
 <div className="container mx-auto py-4">
 
-   <div className="flex justify-center space-y-5 xl:space-y-0 xl:space-x-5 items-center flex-col xl:flex-row ">
+   <div className="flex justify-center space-y-5 lg:space-y-0 lg:space-x-5 items-center flex-col lg:flex-row ">
 
 <ReviewsDev content={'“تعامل راقي ونتيجة ممتازة. أنصح بشدة بعيادة د. أحمد.”'} patient={'ساره محمد'} statue={'مريضة'}/>
 <ReviewsDev content={'“أفضل عيادة أسنان زرتها. الخدمة والاهتمام فوق الممتاز.”'} patient={'خالد علي'} statue={'مريض'}/>
