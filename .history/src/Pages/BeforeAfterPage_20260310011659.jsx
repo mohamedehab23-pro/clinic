@@ -6,7 +6,7 @@ export default function Reviews() {
     <>
     <div id='reviews' className='min-h-[50vh] dark:text-white dark:bg-gray-800 w-3/4 py-12 mx-auto'>
 <Header text={'آراء العملاء'}/> 
-<div className="container mx-auto py-4">
+<div className="w-3/4 mx-auto py-4">
 
    <div className="flex justify-center space-y-5 xl:space-y-0 xl:space-x-5 items-center flex-col xl:flex-row ">
 

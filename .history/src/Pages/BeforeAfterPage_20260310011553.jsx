@@ -7,15 +7,15 @@ export default function Reviews() {
     <div id='reviews' className='min-h-[50vh] dark:text-white dark:bg-gray-800 w-3/4 py-12 mx-auto'>
 <Header text={'آراء العملاء'}/> 
 <div className="container mx-auto py-4">
-
-   <div className="flex justify-center space-y-5 xl:space-y-0 xl:space-x-5 items-center flex-col xl:flex-row ">
+  <div className="max-w-3/4 mx-auto">
+  
+  </div>
+  <div className="flex justify-center space-y-5 xl:space-y-0 xl:space-x-5 items-center flex-col xl:flex-row ">
 
 <ReviewsDev content={'“تعامل راقي ونتيجة ممتازة. أنصح بشدة بعيادة د. أحمد.”'} patient={'ساره محمد'} statue={'مريضة'}/>
 <ReviewsDev content={'“أفضل عيادة أسنان زرتها. الخدمة والاهتمام فوق الممتاز.”'} patient={'خالد علي'} statue={'مريض'}/>
 <ReviewsDev content={'شكراً لفريق العمل على الاحترافية والراحة أثناء الجلسات.'} patient={'نورا أحمد'} statue={'مريضة'}/>
   </div>
-
- 
   
  
     

@@ -4,7 +4,7 @@ export default function ReviewsDev({content,patient,statue}) {
   return (
 <>
 <div >
-<div className='bg-white py-3 sm:min-w-lg  dark:text-white dark:bg-gray-800 text-end px-6 rounded-2xl border border-gray-300 '>
+<div className='bg-white py-3 sm:min-w-lg gro dark:text-white dark:bg-gray-800 text-end px-6 rounded-2xl border border-gray-300 '>
 <div className='flex gap-1 justify-end'>
    
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="text-blue-500 size-4 sm:size-6">
