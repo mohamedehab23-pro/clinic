@@ -1,0 +1,8 @@
+import React from 'react'
+import {CircularProgress} from "@heroui/react";
+
+export default function Loading() {
+  return (
+    <div>Loading</div>
+  )
+}

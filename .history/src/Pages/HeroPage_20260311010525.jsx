@@ -2,8 +2,9 @@ import sora from '../assets/dentist.png'
 import Buttons from '../Components/Button'
 
 export default function HomePage() {
-
-
+  function load(){
+    setInterval(200)
+  }
   const number='201090424304'
   const message='send message'
   return (<>

@@ -24,17 +24,17 @@ export default function BeforeAfterPage() {
         <div>
           <p className='text-center py-4 text-2xl'>قبل</p>
 
-          <img src={before} className='w-40 lg:w-70  rounded-2xl duration-600' alt="bad teeth" />
+          <img src={before} className='w-40 lg:w-70 lg:blur lg:hover:blur-none rounded-2xl duration-600' alt="bad teeth" />
         </div>
         <div>
           <p className='text-center py-4 text-2xl'>بعد</p>
 
-        <img src={after} className='w-40 lg:w-70  rounded-2xl duration-600' alt="clean teeth" />
+        <img src={after} className='w-40 lg:w-70 lg:blur lg:hover:blur-none rounded-2xl duration-600' alt="clean teeth" />
         </div>
       </div>
       <div className='flex gap-3'>
-        <img src={secondbefore} className='w-40 lg:w-70  rounded-2xl duration-600' alt="bad teeth" />
-        <img src={secondafter} className='w-40 lg:w-70  rounded-2xl duration-600' alt="clean teeth" />
+        <img src={secondbefore} className='w-40 lg:w-70 lg:blur lg:hover:blur-none rounded-2xl duration-600' alt="bad teeth" />
+        <img src={secondafter} className='w-40 lg:w-70 lg:blur lg:hover:blur-none rounded-2xl duration-600' alt="clean teeth" />
       </div>
       
 </div>

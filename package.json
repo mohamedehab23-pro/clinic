@@ -13,6 +13,7 @@
     "@heroui/button": "^2.2.31",
     "@heroui/date-picker": "^2.3.32",
     "@heroui/input": "^2.4.32",
+    "@heroui/progress": "^2.2.25",
     "@heroui/react": "^2.8.9",
     "@heroui/select": "^2.4.32",
     "@heroui/system": "^2.4.27",

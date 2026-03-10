@@ -4,12 +4,13 @@ import { Button } from '@heroui/button';
 import { useForm } from 'react-hook-form';
 import * as zod from 'zod'
 import { zodResolver } from '@hookform/resolvers/zod';
-
+import { useState } from 'react';
+import { Link } from 'react-router';
 const today = new Date();
 today.setHours(0,0,0,0);
 const schema=zod.object({
   name:zod.string().nonempty('الاسم مطلوب').min(3,'الاسم يجب ان يكون علي الاقل 3 حروف'),
-  phone:zod.string().nonempty('رقم الهاتف مطلوب').regex(/^01[0125][0-9]{8}$/,'رقم الهاتف يجب ان يكون رقم مصريا'),
+  phone:zod.string().nonempty('رقم الهاتف مطلوب').regex(/^01[0125][0-9]{8}$/,'رقم '),
   service:zod.string().nonempty('يجب ان تختار اختيار واحد'),
   time:zod.string().nonempty('التاريخ مطلوب').refine((date) => {
       const selectedDate = new Date(date);

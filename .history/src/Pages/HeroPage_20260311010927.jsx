@@ -2,7 +2,7 @@ import sora from '../assets/dentist.png'
 import Buttons from '../Components/Button'
 
 export default function HomePage() {
-
+let 
 
   const number='201090424304'
   const message='send message'

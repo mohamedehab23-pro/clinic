@@ -1,8 +1,9 @@
 import sora from '../assets/dentist.png'
 import Buttons from '../Components/Button'
+import Loading from './Loading'
 
 export default function HomePage() {
-
+const load=setInterval(()=>(<Loading/>))
 
   const number='201090424304'
   const message='send message'
