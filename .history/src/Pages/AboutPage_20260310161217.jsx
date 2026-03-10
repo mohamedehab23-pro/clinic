@@ -1,0 +1,16 @@
+import React from 'react'
+import Header from '../Components/Header'
+
+export default function AboutPage() {
+  return (<>
+<Header text={'عن الدكتور'}/>
+    <div className='min-h-[50vh] py-4 flex justify-center '>
+<div className="ةشء-w-md p-2 rounded-2xl shadow text-end">
+    <h2 className='text-2xl'>د/ أحمد عبد الرحمن </h2>
+    <p>بدأ الدكتور أحمد عبد الرحمن رحلته في طب الأسنان التجميلي كطبيب مقيم في قسم التركيبات وتجميل الأسنان بكلية طب الأسنان كأحد أعضاء هيئة التدريس. ثم تخصص في تركيبات وتجميل الأسنان بدرجة الماجستير من جامعة القاهرة.
+الدكتور أحمد خفاجي متخصص في حالات الابتسامة الكاملة والعدسات التجميلية وحالات إعادة تأهيل الفم بالكامل ومسؤول عن علاجات الأسنان من تركيبات وحشوات تجميلية.</p>
+</div>
+    </div>
+    </>
+  )
+}
