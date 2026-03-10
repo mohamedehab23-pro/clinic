@@ -67,7 +67,7 @@ window.open(whatsappURL,'_blank')
               </select>
             {errors.service&& touchedFields.service&& (<p className='text-red-600/80 text-xs '>{errors.service?.message}</p>)}
               <label  htmlFor='date' >الموعد المفضل</label>
-              <input    type="date" className={`p-2 rounded-xl shadow border w-full text-sm border-gray-300 
+              <input    type="date" className={`p-2 rounded-xl shadow border w-f text-sm border-gray-300 
                 ${errors.time ?'border-red-500':'border-gray-300' }`} {...register('time')}/>
              {errors.time&& touchedFields.time&& <p className='text-red-600/80 text-xs'>{errors.time?.message}</p>}
               <Button type='submit' color="primary"> ارسال عبر الواتساب</Button>
