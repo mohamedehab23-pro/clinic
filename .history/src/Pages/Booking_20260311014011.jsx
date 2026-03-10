@@ -8,7 +8,7 @@ import { zodResolver } from '@hookform/resolvers/zod';
 const today = new Date();
 today.setHours(0,0,0,0);
 const schema=zod.object({
-  name:zod.string().nonempty('الاسم مطلوب').min(2,'الاسم يجب ان يكون علي الاقل  حرفين'),
+  name:zod.string().nonempty('الاسم مطلوب').min(3,'الاسم يجب ان يكون علي الاقل  حروف'),
   phone:zod.string().nonempty('رقم الهاتف مطلوب').regex(/^01[0125][0-9]{8}$/,'رقم الهاتف يجب ان يكون رقم مصريا'),
   service:zod.string().nonempty('يجب ان تختار اختيار واحد'),
   time:zod.string().nonempty('التاريخ مطلوب').refine((date) => {
