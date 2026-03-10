@@ -36,6 +36,44 @@ export default function BeforeAfterPage() {
         <img src={secondbefore} className='w-50 lg:w-70 blur hover:blur-none rounded-2xl duration-600' alt="bad teeth" />
         <img src={secondafter} className='w-50 lg:w-70 blur hover:blur-none rounded-2xl duration-600' alt="clean teeth" />
       </div>
+       {/* <div >
+<Button color="primary" onPress={onOpen}>
+        <div className=' rounded-2xl flex gap-7 justify-center items-center '>
+<p>صورة اول مريض</p>
+        </div>
+
+      </Button>
+</div>
+      
+      <Modal isOpen={isOpen} onOpenChange={onOpenChange}>
+        <ModalContent>
+          {(onClose) => (
+            <>
+              <ModalHeader className="flex flex-col gap-1">مريض رقم 1</ModalHeader>
+              <ModalBody>
+                <div className="flex justify-between p-3 gap-3">
+                  <div>
+                    <p className='text-center'> قبل</p>
+                    <img className='rounded-2xl' src={secondbefore} alt="" />
+                  </div>
+               <div>
+                <p className='text-center'> بعد</p>
+                <img className='rounded-2xl' src={secondafter} alt="" />
+               </div>
+             
+                </div>
+               
+              </ModalBody>
+              <ModalFooter>
+                <Button color="danger" variant="light" onPress={onClose}>
+                  Close
+                </Button>
+              
+              </ModalFooter>
+            </>
+          )}
+        </ModalContent>
+      </Modal> */}
       
 </div>
 

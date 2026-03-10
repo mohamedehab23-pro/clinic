@@ -36,6 +36,7 @@ export default function BeforeAfterPage() {
         <img src={secondbefore} className='w-50 lg:w-70 blur hover:blur-none rounded-2xl duration-600' alt="bad teeth" />
         <img src={secondafter} className='w-50 lg:w-70 blur hover:blur-none rounded-2xl duration-600' alt="clean teeth" />
       </div>
+       
       
 </div>
 

@@ -9,7 +9,6 @@ import Booking from '../Pages/Booking'
 import ContactPage from '../Pages/ContactPage'
 import Button from '../Components/Button'
 import AboutPage from '../Pages/AboutPage'
-import BeforeAfterPage from '../Pages/BeforeAfterPage'
 
 export  function MainLayout() {
   const [darkMode, setDarkMode] = useState(localStorage.getItem('darkmode'===true|| false))
@@ -60,8 +59,6 @@ viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="cursor-po
     <li ><a onClick={()=>setNavToggle(false)} href={'/#services'}>خدمات</a></li>
     <li ><a onClick={()=>setNavToggle(false)} href={'/#reviews'}>أراء العملاء</a></li>
     <li ><a onClick={()=>setNavToggle(false)} href={'/#about'}> عن الدكتور</a></li>
-    <li ><a onClick={()=>setNavToggle(false)} href={'/#before-after'}> قبل و بعد </a></li>
-
     <li ><a onClick={()=>setNavToggle(false)} href={'/#booking'}>احجز</a></li>
     <li ><a onClick={()=>setNavToggle(false)} href={'/#contact'}>تواصل</a></li>
   </ul>}
@@ -74,7 +71,6 @@ viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="cursor-po
     <ReviewsPage/>
     <AboutPage/>
     <WhyUs/>
-    <BeforeAfterPage/>
     <Booking/>
     <ContactPage/>
 
