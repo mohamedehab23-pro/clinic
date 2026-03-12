@@ -4,10 +4,10 @@ import Loading from './Loading'
 
 export default function HomePage() {
 
+
   const number='201090424304'
   const message='send message'
   return (<>
-
     <div id='home' className=' bg-linear-to-r from-blue-100 to-white dark:bg-linear-to-r dark:from-gray-800 dark:to-gray-800  min-h-screen  p-3'>
      {/* bg-linear-to-r from-white to-blue-500/80 dark:bg-linear-to-r dark:from-gray-400 dark:to-blue-600 */}
       <div className='flex flex-col gap-5 lg:flex-row justify-around'>
@@ -29,6 +29,7 @@ export default function HomePage() {
 
 </div>
 <div className=' w-full order-first lg:order-0 flex justify-center items-center'>
+  {<Loading}
  <img src={sora} alt="doctor" className='lg:w-[60%] w-full ' />
 </div>
       </div>

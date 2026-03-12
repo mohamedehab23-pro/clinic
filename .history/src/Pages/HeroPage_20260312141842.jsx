@@ -3,6 +3,7 @@ import Buttons from '../Components/Button'
 import Loading from './Loading'
 
 export default function HomePage() {
+setTimeout(<Loading/>,)
 
   const number='201090424304'
   const message='send message'

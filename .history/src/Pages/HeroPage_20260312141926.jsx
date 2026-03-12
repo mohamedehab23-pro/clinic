@@ -3,11 +3,12 @@ import Buttons from '../Components/Button'
 import Loading from './Loading'
 
 export default function HomePage() {
+const x= setTimeout(<Loading/>,100)
 
   const number='201090424304'
   const message='send message'
   return (<>
-
+{clearTimeout(x)&& }
     <div id='home' className=' bg-linear-to-r from-blue-100 to-white dark:bg-linear-to-r dark:from-gray-800 dark:to-gray-800  min-h-screen  p-3'>
      {/* bg-linear-to-r from-white to-blue-500/80 dark:bg-linear-to-r dark:from-gray-400 dark:to-blue-600 */}
       <div className='flex flex-col gap-5 lg:flex-row justify-around'>

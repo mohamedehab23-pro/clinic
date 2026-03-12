@@ -24,8 +24,9 @@ const [darkMode, setDarkMode] = useState( localStorage.getItem('darkmode') === '
 
   return (
     <>
+    <Loading/>
     <div className={`${darkMode? 'dark':''}  dark:text-white`}>
-    <div className='dark:bg-gray-800 bg-white'>
+    <div className='dark:bg-gray-800'>
       
  <div className='py-3 shadow sticky z-10 top-0 w-full dark:bg-gray-700 bg-white/90'>
 <div className="container px-3 lg:p-0 mx-auto flex items-center justify-between">

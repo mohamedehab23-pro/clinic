@@ -4,7 +4,15 @@ import before from '../assets/before.png'
 import after from '../assets/after.png'
 import secondbefore from '../assets/face.png'
 import secondafter from '../assets/another.png'
-
+import {
+  Modal,
+  ModalContent,
+  ModalHeader,
+  ModalBody,
+  ModalFooter,
+  Button,
+  useDisclosure,
+} from "@heroui/react";
 export default function BeforeAfterPage() {
 
   return (<>
