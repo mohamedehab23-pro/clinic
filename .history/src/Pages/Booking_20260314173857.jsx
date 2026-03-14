@@ -60,7 +60,7 @@ window.open(whatsappURL,'_blank')
           <div className='  p-6 dark:text-white dark:bg-gray-800 bg-white rounded-xl lg:min-w-md  w-sm border border-gray-200'>
             <form onSubmit={handleSubmit(sendData)} className='flex text-end flex-col gap-4'>
               <label htmlFor='name '>الأسم</label>
-              <Input type='text' errorMessage={errors.name?.message} isInvalid={errors.name&& touchedFields.name} variant='bordered' {...register('name')} id='name' />
+              <Input  errorMessage={errors.name?.message} isInvalid={errors.name&& touchedFields.name} variant='bordered' {...register('name')} id='name' />
               <label htmlFor='mobile'>رقم الهاتف</label>
               <Input type='tel' errorMessage={errors.phone?.message} isInvalid={errors.phone&& touchedFields.phone} variant='bordered' {...register('phone')} id='mobile' />
               <label htmlFor='service'>نوع الخدمة</label>

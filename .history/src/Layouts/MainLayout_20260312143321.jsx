@@ -1,5 +1,6 @@
-import  { useState } from 'react'
+import React, { useState } from 'react'
 import Footer from '../Components/Footer'
+import { Link, NavLink } from 'react-router'
 import HeroPage from '../Pages/HeroPage'
 import Services from '../Pages/Services'
 import WhyUs from '../Pages/WhyUs'
@@ -9,9 +10,10 @@ import ContactPage from '../Pages/ContactPage'
 import Button from '../Components/Button'
 import AboutPage from '../Pages/AboutPage'
 import BeforeAfterPage from '../Pages/BeforeAfterPage'
+import Loading from '../Pages/Loading'
 
 export  function MainLayout() {
-const [darkMode, setDarkMode] = useState( localStorage.getItem('darkmode') === 'true'|| false)
+const [darkMode, setDarkMode] = useState( localStorage.getItem('darkmode') === 'true'|| fa)
 
   const [navToggle, setNavToggle] = useState(false)
   const toggleDarkMode = () => {
